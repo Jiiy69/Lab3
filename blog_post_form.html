@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Blog Post Submission Form</title>
+
+<link rel="stylesheet" href="SPS.css">
+
+</head>
+<body>
+
+    <h1>Submit a New Blog Post</h1>
+
+    <form id="blogPostForm">
+        <label for="title">Blog Post Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="author">Author's Name:</label>
+        <input type="text" id="author" name="author" required>
+
+        <label for="content">Blog Post Content:</label>
+        <textarea id="content" name="content" rows="10" required></textarea>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="technology">Technology</option>
+            <option value="lifestyle">Lifestyle</option>
+            <option value="travel">Travel</option>
+            <option value="education">Education</option>
+        </select>
+
+        <button type="submit" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            alert("Form submitted!");
+        }
+    </script>
+
+</body>
+</html>
+</html>
