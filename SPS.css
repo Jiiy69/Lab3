@@ -27,11 +27,6 @@ label {
     font-weight: bold;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
-}
 
 form {
     background-color: beige;
@@ -80,4 +75,31 @@ button {
 
 button:hover {
     background-color: #218838;
+}
+
+.Hello {
+    flex: 3;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(7, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.Hello h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.Hello iframe {
+    margin-left: 180px;
+}
+
+.Hello img {
+    margin-left: 55px;
+}
+
+.Hello video {
+    margin-left: 320px;
+    height: 300px;
 }
